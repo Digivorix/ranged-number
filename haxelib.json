@@ -1,0 +1,11 @@
+{
+  "name": "ranged-numbers",
+  "license": "MIT",
+  "classPath": "src/",
+  "tags": ["cross", "cpp", "neko", "flash", "js"],
+  "description": "A set of classes that allow you to create objects that store and perform operations on Int & Float values within a defined boundary. Works with Haxe 3.x and 4.x.",
+  "contributors": ["Digivorix"],
+  "releasenote": "Initial release",
+  "version": "1.0.0",
+  "url": "https://github.com/Digivorix/ranged-numbers"
+}

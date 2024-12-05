@@ -1,0 +1,1 @@
+haxelib run dox -i xml/haxedoc.xml -o docs -D website "Toby Davis" -D version 1.0.0

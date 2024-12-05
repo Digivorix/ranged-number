@@ -1,0 +1,342 @@
+<haxe>
+	<class path="numbers.RangedFloat" params="" file="src/numbers/RangedFloat.hx">
+		<FLOAT_MAX get="inline" set="null" expr="1.79e+308" line="18" static="1">
+			<x path="Float"/>
+			<meta><m n=":value"><e>1.79e+308</e></m></meta>
+		</FLOAT_MAX>
+		<FLOAT_MIN get="inline" set="null" expr="-1.79e+308" line="19" static="1">
+			<x path="Float"/>
+			<meta><m n=":value"><e>-1.79e+308</e></m></meta>
+		</FLOAT_MIN>
+		<value><x path="Float"/></value>
+		<maxVal><x path="Float"/></maxVal>
+		<minVal><x path="Float"/></minVal>
+		<setValue public="1" set="method" line="66">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Sets the current value with a bounds check against the provided minimum and maximum values
+	 * 
+	 * @param   value         The new current value</haxe_doc>
+		</setValue>
+		<setMax public="1" set="method" line="87">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Sets the maximum value with a bounds check against the largest possible value
+	 * 
+	 * @param   value         The new maximum value</haxe_doc>
+		</setMax>
+		<setMin public="1" set="method" line="104">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Sets the minimum value with a bounds check against the smallest possible value
+	 * 
+	 * @param   value         The new minimum value</haxe_doc>
+		</setMin>
+		<add public="1" set="method" line="125">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Adds the given value to the current value with a bounds check
+	 * 
+	 * @param   value         The value to add</haxe_doc>
+		</add>
+		<subtract public="1" set="method" line="135">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Subtracts the given value to the current value with a bounds check
+	 * 
+	 * @param   value         The value to subtract</haxe_doc>
+		</subtract>
+		<multiply public="1" set="method" line="145">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Multiplies the current value by the given value with a bounds check
+	 * 
+	 * @param   value         The value to multiply by</haxe_doc>
+		</multiply>
+		<divide public="1" set="method" line="155">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Divides the current value by the given value with a bounds check
+	 * 
+	 * @param   value         The value to divide by</haxe_doc>
+		</divide>
+		<mod public="1" set="method" line="165">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Performs a modulo operation on the current value using the given value with a bounds check
+	 * 
+	 * @param   value         The value to be used by the modulo operation</haxe_doc>
+		</mod>
+		<getValue public="1" set="method" line="177">
+			<f a=""><x path="Float"/></f>
+			<haxe_doc>* Returns the current value</haxe_doc>
+		</getValue>
+		<getMax public="1" set="method" line="185">
+			<f a=""><x path="Float"/></f>
+			<haxe_doc>* Returns the maximum value used for bounds checking</haxe_doc>
+		</getMax>
+		<getMin public="1" set="method" line="193">
+			<f a=""><x path="Float"/></f>
+			<haxe_doc>* Returns the minimum value used for bounds checking</haxe_doc>
+		</getMin>
+		<new public="1" set="method" line="21">
+			<f a="?value:?max:?min" v="0.0:1.79e+308:-1.79e+308">
+				<x path="Float"/>
+				<x path="Float"/>
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<meta><m n=":value"><e>{ min : -1.79e+308, max : 1.79e+308, value : 0.0 }</e></m></meta>
+		</new>
+		<haxe_doc>* Stores a Float value within a defined boundary.
+ * 
+ * Maximum values up to 1.79e+308 are accepted.
+ * 
+ * Minimum values down to -1.79e+308 are accepted.</haxe_doc>
+		<meta><m n=":directlyUsed"/></meta>
+	</class>
+	<class path="numbers.RangedInt" params="" file="src/numbers/RangedInt.hx">
+		<INT_MAX get="inline" set="null" expr="2147483647" line="19" static="1">
+			<x path="Int"/>
+			<meta><m n=":value"><e>2147483647</e></m></meta>
+		</INT_MAX>
+		<INT_MIN get="inline" set="null" expr="-2147483648" line="20" static="1">
+			<x path="Int"/>
+			<meta><m n=":value"><e>-2147483648</e></m></meta>
+		</INT_MIN>
+		<value><x path="Int"/></value>
+		<maxVal><x path="Int"/></maxVal>
+		<minVal><x path="Int"/></minVal>
+		<setValue public="1" set="method" line="67">
+			<f a="value">
+				<x path="Int"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Sets the current value with a bounds check against the provided minimum and maximum values
+	 * 
+	 * @param   value         The new current value</haxe_doc>
+		</setValue>
+		<setMax public="1" set="method" line="88">
+			<f a="value">
+				<x path="Int"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Sets the maximum value with a bounds check against the largest possible value
+	 * 
+	 * @param   value         The new maximum value</haxe_doc>
+		</setMax>
+		<setMin public="1" set="method" line="105">
+			<f a="value">
+				<x path="Int"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Sets the minimum value with a bounds check against the smallest possible value
+	 * 
+	 * @param   value         The new minimum value</haxe_doc>
+		</setMin>
+		<add public="1" set="method" line="126">
+			<f a="value">
+				<x path="Int"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Adds the given value to the current value with a bounds check
+	 * 
+	 * @param   value         The value to add</haxe_doc>
+		</add>
+		<subtract public="1" set="method" line="136">
+			<f a="value">
+				<x path="Int"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Subtracts the given value to the current value with a bounds check
+	 * 
+	 * @param   value         The value to subtract</haxe_doc>
+		</subtract>
+		<multiply public="1" set="method" line="146">
+			<f a="value">
+				<x path="Int"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Multiplies the current value by the given value with a bounds check
+	 * 
+	 * @param   value         The value to multiply by</haxe_doc>
+		</multiply>
+		<divide public="1" set="method" line="156">
+			<f a="value">
+				<x path="Int"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Divides the current value by the given value with a bounds check
+	 * 
+	 * @param   value         The value to divide by</haxe_doc>
+		</divide>
+		<mod public="1" set="method" line="166">
+			<f a="value">
+				<x path="Int"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Performs a modulo operation on the current value using the given value with a bounds check
+	 * 
+	 * @param   value         The value to be used by the modulo operation</haxe_doc>
+		</mod>
+		<getValue public="1" set="method" line="178">
+			<f a=""><x path="Int"/></f>
+			<haxe_doc>* Returns the current value as an Int</haxe_doc>
+		</getValue>
+		<getMax public="1" set="method" line="186">
+			<f a=""><x path="Int"/></f>
+			<haxe_doc>* Returns the maximum value used for bounds checking</haxe_doc>
+		</getMax>
+		<getMin public="1" set="method" line="194">
+			<f a=""><x path="Int"/></f>
+			<haxe_doc>* Returns the minimum value used for bounds checking</haxe_doc>
+		</getMin>
+		<new public="1" set="method" line="22">
+			<f a="?value:?max:?min" v="0:2147483647:-2147483648">
+				<x path="Int"/>
+				<x path="Int"/>
+				<x path="Int"/>
+				<x path="Void"/>
+			</f>
+			<meta><m n=":value"><e>{ min : -2147483648, max : 2147483647, value : 0 }</e></m></meta>
+		</new>
+		<haxe_doc>* Stores an Int value within a defined boundary.
+ * 
+ * Maximum values up to 2147483647 are accepted.
+ * 
+ * Minimum values down to -2147483648 are accepted.</haxe_doc>
+		<meta><m n=":directlyUsed"/></meta>
+	</class>
+	<class path="numbers.RangedNumber" params="" file="src/numbers/RangedNumber.hx">
+		<INT_MAX get="inline" set="null" expr="2147483647" line="20" static="1">
+			<x path="Int"/>
+			<meta><m n=":value"><e>2147483647</e></m></meta>
+		</INT_MAX>
+		<INT_MIN get="inline" set="null" expr="-2147483648" line="21" static="1">
+			<x path="Int"/>
+			<meta><m n=":value"><e>-2147483648</e></m></meta>
+		</INT_MIN>
+		<value><x path="Float"/></value>
+		<maxVal><x path="Int"/></maxVal>
+		<minVal><x path="Int"/></minVal>
+		<setValue public="1" set="method" line="68">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Sets the current value with a bounds check against the provided minimum and maximum values
+	 * 
+	 * @param   value         The new current value</haxe_doc>
+		</setValue>
+		<setMax public="1" set="method" line="89">
+			<f a="value">
+				<x path="Int"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Sets the maximum value with a bounds check against the largest possible value
+	 * 
+	 * @param   value         The new maximum value</haxe_doc>
+		</setMax>
+		<setMin public="1" set="method" line="106">
+			<f a="value">
+				<x path="Int"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Sets the minimum value with a bounds check against the smallest possible value
+	 * 
+	 * @param   value         The new minimum value</haxe_doc>
+		</setMin>
+		<add public="1" set="method" line="127">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Adds the given value to the current value with a bounds check 
+	 * 
+	 * @param   value         The value to add</haxe_doc>
+		</add>
+		<subtract public="1" set="method" line="137">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Subtracts the given value to the current value with a bounds check
+	 * 
+	 * @param   value         The value to subtract</haxe_doc>
+		</subtract>
+		<multiply public="1" set="method" line="147">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Multiplies the current value by the given value with a bounds check
+	 * 
+	 * @param   value         The value to multiply by</haxe_doc>
+		</multiply>
+		<divide public="1" set="method" line="157">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Divides the current value by the given value with a bounds check
+	 * 
+	 * @param   value         The value to divide by</haxe_doc>
+		</divide>
+		<mod public="1" set="method" line="167">
+			<f a="value">
+				<x path="Float"/>
+				<x path="Void"/>
+			</f>
+			<haxe_doc>* Performs a modulo operation on the current value using the given value with a bounds check
+	 * 
+	 * @param   value         The value to be used by the modulo operation</haxe_doc>
+		</mod>
+		<getInt public="1" set="method" line="179">
+			<f a=""><x path="Int"/></f>
+			<haxe_doc>* Returns the current value as an Int</haxe_doc>
+		</getInt>
+		<getFloat public="1" set="method" line="187">
+			<f a=""><x path="Float"/></f>
+			<haxe_doc>* Returns the current value as a Float</haxe_doc>
+		</getFloat>
+		<getMax public="1" set="method" line="195">
+			<f a=""><x path="Int"/></f>
+			<haxe_doc>* Returns the maximum value used for bounds checking</haxe_doc>
+		</getMax>
+		<getMin public="1" set="method" line="203">
+			<f a=""><x path="Int"/></f>
+			<haxe_doc>* Returns the minimum value used for bounds checking</haxe_doc>
+		</getMin>
+		<new public="1" set="method" line="23">
+			<f a="?value:?max:?min" v="0:2147483647:-2147483648">
+				<x path="Float"/>
+				<x path="Int"/>
+				<x path="Int"/>
+				<x path="Void"/>
+			</f>
+			<meta><m n=":value"><e>{ min : -2147483648, max : 2147483647, value : 0 }</e></m></meta>
+		</new>
+		<haxe_doc>* Stores a Float value within a defined boundary that can be retrieved as either an Int or a Float.
+ * 
+ * Maximum values up to 2147483647 are accepted.
+ * 
+ * Minimum values down to -2147483648 are accepted.</haxe_doc>
+		<meta><m n=":directlyUsed"/></meta>
+	</class>
+</haxe>

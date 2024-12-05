@@ -4,7 +4,7 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="bin\RangedNumbersDemo.n" />
+    <movie path="bin\RangedNumberDemo.n" />
     <movie fps="0" />
     <movie width="0" />
     <movie height="0" />
@@ -28,7 +28,7 @@
   </build>
   <!-- haxelib libraries -->
   <haxelib>
-    <library name="ranged-numbers" />
+    <library name="ranged-number" />
   </haxelib>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>

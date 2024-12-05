@@ -1,4 +1,4 @@
-# Ranged Numbers
+# Ranged Number
 A set of classes that allow you to create objects that store and perform operations on Int & Float values within a defined boundary. Works with Haxe 3.x and 4.x.
 
 ## Bounds Checking
@@ -28,7 +28,7 @@ There are also functions for multiply, divide, and modulo.
 
 If an operation will exceed the provided range, then it will simply max out the stored value at either the provided minimum or maximum boundary (depending on the operation).
 
-## Explaining RangedNumber
+## Explaining the RangedNumber Class
 The RangedNumber class stores its value as a Float, but it has the upper and lower limits of a RangedInt. This accounts for the lower technical limits of an Integer and allows you to fetch the value as either a Float or an Int no matter its value. This feature is not present in the RangedInt or RangedFloat classes.
 
 If you have no need for this functionality, then it is recommended to use the RangedInt and RangedFloat classes.

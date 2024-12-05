@@ -1,5 +1,5 @@
 {
-  "name": "ranged-numbers",
+  "name": "ranged-number",
   "license": "MIT",
   "classPath": "src/",
   "tags": ["cross", "cpp", "neko", "flash", "js"],
@@ -7,5 +7,5 @@
   "contributors": ["Digivorix"],
   "releasenote": "Initial release",
   "version": "1.0.0",
-  "url": "https://github.com/Digivorix/ranged-numbers"
+  "url": "https://github.com/Digivorix/ranged-number"
 }

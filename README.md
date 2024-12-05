@@ -10,11 +10,15 @@ All of the classes have 2 limits. The 1st limit is the number range that you set
 This limit will depend on which ranged number type you are using. If your defined limit exceeds the hard coded maximum or minimum, then the corresponding value will simply be set to that hard coded maximum or minimum.
 
 **Maximums**
+
 - The maximum value for RangedInt and RangedNumber objects is 2147483648, which is the upper limit of a 32-bit Integer.
+
 - The maximum value for a RangedFloat object is 1.79e+308.
 
 **Minimums**
+
 - The minimum value for RangedInt and RangedNumber objects is -2147483648, which is the lower limit of a 32-bit Integer.
+
 - The minimum value for a RangedFloat object is -1.79e+308.
 
 ## Math Operations

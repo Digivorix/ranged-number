@@ -37,7 +37,7 @@ If you have no need for this functionality, then it is recommended to use the Ra
 The compiled documentation is included under the /docs directory. 
 
 ## Compatibility
-This library is compatible with ActionScript 3, C++, Neko, and JavaScript targets for Haxe 3.x and 4.x. Other targets may be compatible, but have not been tested.
+This library is compatible with the Flash, C++, Neko, and JavaScript targets for Haxe 3.x and 4.x. Other targets may be compatible, but have not been tested.
 
 ## Demo
 Some example code can be found in the /demo directory.
